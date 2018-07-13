@@ -26,6 +26,7 @@ class SubscribeTest(TestCase):
 
     def test_has_form(self):
         """Conext must have subscription form"""
+        """teste de envio para heroku"""
         form = self.resp.context['form']
         self.assertIsInstance(form, SubscriptionForm)
 
