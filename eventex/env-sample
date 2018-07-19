@@ -1,0 +1,17 @@
+SECRET_KEY=urlkzoxy!1x6=6jlf=nx(gthxirppf2!csbocb#@8ba%!kh0r$
+DEBUG=False
+ALLOWED_HOSTS=127.0.0.1, .localhost, .herokuapp.com
+
+EMAIL_BACKEND=django.core.mail.backends.console.EmailBackend
+EMAIL_HOST=localhost
+EMAIL_PORT=25
+EMAIL_USE_TLS=False
+EMAIL_HOST_USER=
+EMAIL_HOST_PASSWORD=
+
+#EMAIL_BACKEND=django.core.mail.backends.smtp.EmailBackend
+#EMAIL_HOST=smtp.sendgrid.com
+#EMAIL_PORT=587
+#EMAIL_USE_TLS=True
+#EMAIL_HOST_USER=wellington.carvalho.com
+#EMAIL_HOST_PASSWORD=wamajo@#18
